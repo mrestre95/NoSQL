@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  # Configuración del servicio de MongoDB
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+
+  # Configuración del servicio de tu aplicación Spring Boot
+  nosql-tarea2:
+    build: .
+    container_name: nosql-tarea2-container
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/Tarea2
