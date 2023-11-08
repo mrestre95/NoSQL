@@ -27,7 +27,7 @@ public class DomicilioService {
    IDomicilioRepository repoDomicilio;
    @Autowired
    IPersonaRepository repoPersona;
-   @Autowired
+
    DireccionMapper mapper;
    @Autowired
    private MongoTemplate mongoTemplate;
