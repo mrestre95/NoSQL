@@ -62,7 +62,7 @@ Prompt.
 >10 - To run IntelliJ IDEA, find it in the Windows Start menu or use the desktop shortcut. You can also run the launcher batch script or executable in the installation directory under bin.
 
 
-Docker
+**Docker**
 ## Requerimientos del Sistema
 
 Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos con los siguientes requerimientos:
@@ -96,3 +96,10 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 >7 - If your admin account is different to your user account, you must add the user to the docker-users group. Run Computer Management as an administrator and navigate to Local Users and Groups > Groups > docker-users. Right-click to add the user to the group. Sign out and sign back in for the changes to take effect.
 
 # Conectar IntellijIdea con Docker
+
+>1 - Open the intillij Idea and go to the Plugins
+>2 - We must search for docker and install it
+>3 - The docker plugins must be appear on Intellij Idea Services
+>4 - We must connect the IDE with docker in the following way: right click on Docker and click in connect
+>5 - Go to application.properties file into our project and enter the docker url where we have post the database
+>6 - Run the project
