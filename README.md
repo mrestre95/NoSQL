@@ -33,12 +33,21 @@ Para instalar y ejecutar IntellijIdea, el ambiente de trabajo debe de cumplir al
 ### Instalación
 
 1 - Download the installer .exe from the Toolbox App web page.
+
 2 - Run the installer and follow the wizard steps.
+
 3 - After you run the Toolbox App, click its icon Toolbox App icon in the notification area and select which product you want to install.
+
 4 - Run the installer and follow the wizard steps.
+
 5 - On the Installation Options step, you can configure the following:
+
 6 - Create a desktop shortcut for launching IntelliJ IDEA.
+
 7 - Add the directory with IntelliJ IDEA command-line launchers to the PATH environment variable to be able to run them from any working directory in the Command Prompt.
+
 8 - Add the Open Folder as Project action to the system context menu (when you right-click a folder).
+
 9 - Associate specific file extensions with IntelliJ IDEA to open them with a double click
+
 10 - To run IntelliJ IDEA, find it in the Windows Start menu or use the desktop shortcut. You can also run the launcher batch script or executable in the installation directory under bin.
