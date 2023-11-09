@@ -12,7 +12,7 @@
 >Docker simplifica el proceso de desarrollo y despliegue de aplicaciones al utilizar contenedores, proporcionando portabilidad, eficiencia de recursos y un entorno consistente en todos los niveles, desde el desarrollo hasta la producción
 
 # Configuración e instalación
-##IntellijIdea
+###IntellijIdea
 ### Requerimientos del Sistema
 
 Para instalar y ejecutar IntellijIdea, el ambiente de trabajo debe de cumplir al menos con los siguientes requerimientos:
