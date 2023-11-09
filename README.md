@@ -7,3 +7,6 @@
 
 **Base de datos:** MongoDb
 >MongoDB es una base de datos NoSQL popular que ofrece flexibilidad en el modelado de datos, escalabilidad horizontal, y un conjunto de características que la hacen adecuada para una variedad de aplicaciones, desde proyectos pequeños hasta sistemas empresariales de gran envergadura.
+
+**Herramientas:** Docker
+>Docker simplifica el proceso de desarrollo y despliegue de aplicaciones al utilizar contenedores, proporcionando portabilidad, eficiencia de recursos y un entorno consistente en todos los niveles, desde el desarrollo hasta la producción
