@@ -13,13 +13,13 @@
 >Docker simplifica el proceso de desarrollo y despliegue de aplicaciones al utilizar contenedores, proporcionando portabilidad, eficiencia de recursos y un entorno consistente en todos los niveles, desde el desarrollo hasta la producción.
 
 # Configuración e instalación
-IntellijIdea
+**IntellijIdea**
 ## Requerimientos del Sistema
 
--	Para instalar y ejecutar IntellijIdea, el ambiente de trabajo debe de cumplir al menos con los siguientes requerimientos:
+Para instalar y ejecutar IntellijIdea, el ambiente de trabajo debe de cumplir al menos con los siguientes requerimientos:
 
--   **Sistema Operativo**: Officially released 64-bit versions of the following:
-							- Microsoft Windows 10 1809 or later
+**Sistema Operativo**: 
+>Officially released 64-bit versions of the following:Microsoft Windows 10 1809 or later
 							- Windows Server 2019 or later
 							- macOS 10.15 or later
 							- Any Linux distribution that supports Gnome, KDE , or Unity DE.
