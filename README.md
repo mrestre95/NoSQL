@@ -109,6 +109,8 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 
 >6 - Run the project
 
+# Conectar IntellijIdea con Jenkins
+
 # Justificación
 >Utilizamos la base de datos mongodb porque consideramos que es la mejor opción para manejar el tipo de datos JSON, además que posee un esquema fijo lo que permite flexibilidad y escalabilidad en la estructura. Al tratarse de una aplicación que utiliza dirección y entendemos que esto en un futuro puede tener una escalabilidad exponencial.
 
