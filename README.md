@@ -111,6 +111,51 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 
 # Conectar IntellijIdea con Jenkins
 
+Jenkins es una herramienta de automatización de código abierto que se utiliza comúnmente para la construcción, prueba y implementación continua de software. Puede integrarse fácilmente con varios sistemas de gestión de versiones, entornos de desarrollo y herramientas de prueba. Aquí hay una guía básica sobre cómo puedes usar Jenkins para la automatización de pruebas:
+
+1. Instalación de Jenkins:
+
+-   Descarga e instala Jenkins desde el sitio web oficial: [Jenkins.io](https://www.jenkins.io/download/).
+-   Sigue las instrucciones de instalación para tu sistema operativo.
+
+2. Configuración inicial:
+
+-   Después de la instalación, abre Jenkins en tu navegador (por lo general, en [http://localhost:8080/](http://localhost:8080/)).
+-   Sigue las instrucciones para desbloquear Jenkins y configurar el usuario administrador.
+
+3. Instalación de plugins:
+
+-   Instala los plugins necesarios para la integración con tu sistema de control de versiones y herramientas de prueba. Por ejemplo, puedes necesitar el plugin Git, Maven, JUnit, etc.
+-   Ve a "Gestionar Jenkins" -> "Administrar complementos" y selecciona los plugins necesarios.
+
+4. Crear un nuevo trabajo (job) de estilo libre:
+
+-   Haz clic en "Nueva tarea" o "Nuevo trabajo" en el panel de control de Jenkins.
+-   Proporciona un nombre para el trabajo y selecciona "Crear un proyecto de estilo libre".
+-   Configura la fuente de código fuente desde tu sistema de control de versiones (Git, SVN, etc.).
+
+5. Configurar la construcción:
+
+-   En la sección de construcción, selecciona las acciones específicas para construir tu proyecto. Puede ser la ejecución de un script de compilación, la construcción con Maven, etc.
+
+6. Configurar pruebas:
+
+-   Después de la construcción, configura la ejecución de tus pruebas. Esto podría ser mediante la ejecución de scripts de prueba, la integración con herramientas de prueba como JUnit, TestNG, etc.
+
+7. Programación de la ejecución:
+
+-   Puedes programar la ejecución de tus trabajos en Jenkins en intervalos regulares o después de cada confirmación en tu sistema de control de versiones.
+
+8. Ver resultados y notificaciones:
+
+-   Configura Jenkins para notificar sobre los resultados de las pruebas. Puedes utilizar plugins de correo electrónico, integración con sistemas de mensajería como Slack, etc.
+
+9. Monitoreo y ajuste:
+
+-   Monitorea regularmente los resultados de las pruebas y ajusta la configuración según sea necesario.
+
+
+
 # Justificación
 >Utilizamos la base de datos mongodb porque consideramos que es la mejor opción para manejar el tipo de datos JSON, además que posee un esquema fijo lo que permite flexibilidad y escalabilidad en la estructura. Al tratarse de una aplicación que utiliza dirección y entendemos que esto en un futuro puede tener una escalabilidad exponencial.
 
