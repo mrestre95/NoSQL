@@ -98,10 +98,15 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 # Conectar IntellijIdea con Docker
 
 >1 - Open the intillij Idea and go to the Plugins
+
 >2 - We must search for docker and install it
+
 >3 - The docker plugins must be appear on Intellij Idea Services
+
 >4 - We must connect the IDE with docker in the following way: right click on Docker and click in connect
+
 >5 - Go to application.properties file into our project and enter the docker url where we have post the database
+
 >6 - Run the project
 
 # Modelo de dominio
