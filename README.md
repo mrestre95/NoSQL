@@ -103,3 +103,6 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 >4 - We must connect the IDE with docker in the following way: right click on Docker and click in connect
 >5 - Go to application.properties file into our project and enter the docker url where we have post the database
 >6 - Run the project
+
+# Modelo de dominio
+[![Modelo-de-dominio.jpg](https://i.postimg.cc/L8MWj0D2/Modelo-de-dominio.jpg)](https://postimg.cc/2V2TDGgK)
