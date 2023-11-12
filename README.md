@@ -12,6 +12,9 @@
 **Herramientas:** Docker
 >Docker simplifica el proceso de desarrollo y despliegue de aplicaciones al utilizar contenedores, proporcionando portabilidad, eficiencia de recursos y un entorno consistente en todos los niveles, desde el desarrollo hasta la producción.
 
+**Automatizacion de Tests:** Jenkins
+>Jenkins es una herramienta de automatización de código abierto que se utiliza comúnmente para la construcción, prueba y implementación continua de software. Puede integrarse fácilmente con varios sistemas de gestión de versiones, entornos de desarrollo y herramientas de prueba. Aquí hay una guía básica sobre cómo puedes usar Jenkins para la automatización de pruebas:
+
 # Configuración e instalación
 **IntellijIdea**
 ## Requerimientos del Sistema
@@ -111,7 +114,7 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 
 # Conectar IntellijIdea con Jenkins
 
-Jenkins es una herramienta de automatización de código abierto que se utiliza comúnmente para la construcción, prueba y implementación continua de software. Puede integrarse fácilmente con varios sistemas de gestión de versiones, entornos de desarrollo y herramientas de prueba. Aquí hay una guía básica sobre cómo puedes usar Jenkins para la automatización de pruebas:
+
 
 1. Instalación de Jenkins:
 
