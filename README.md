@@ -116,50 +116,50 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 
 
 
-1. Instalación de Jenkins:
+##1. Instalación de Jenkins:
 
--   Descarga e instala Jenkins desde el sitio web oficial: [Jenkins.io](https://www.jenkins.io/download/).
--   Sigue las instrucciones de instalación para tu sistema operativo.
+>-   Descarga e instala Jenkins desde el sitio web oficial: [Jenkins.io](https://www.jenkins.io/download/).
+>-   Sigue las instrucciones de instalación para tu sistema operativo.
 
-2. Configuración inicial:
+##2. Configuración inicial:
 
--   Después de la instalación, abre Jenkins en tu navegador (por lo general, en [http://localhost:8080/](http://localhost:8080/)).
--   Sigue las instrucciones para desbloquear Jenkins y configurar el usuario administrador.
+>-   Después de la instalación, abre Jenkins en tu navegador (por lo general, en [http://localhost:8080/](http://localhost:8080/)).
+>-   Sigue las instrucciones para desbloquear Jenkins y configurar el usuario administrador.
 
-3. Instalación de plugins:
+##3. Instalación de plugins:
 
--   Instala los plugins necesarios para la integración con tu sistema de control de versiones y herramientas de prueba. Por ejemplo, puedes necesitar el plugin Git, Maven, JUnit, etc.
--   Ve a "Gestionar Jenkins" -> "Administrar complementos" y selecciona los plugins necesarios.
--   *Installar pluguin de maven*
--   setear las rutas para poder usar maven
+>-   Instala los plugins necesarios para la integración con tu sistema de control de versiones y herramientas de prueba. Por ejemplo, puedes necesitar el plugin Git, Maven, JUnit, etc.
+>-   Ve a "Gestionar Jenkins" -> "Administrar complementos" y selecciona los plugins necesarios.
+>-   *Installar pluguin de maven*
+>-   setear las rutas para poder usar maven
 
-4. Crear un nuevo trabajo (job) de estilo libre:
+##4. Crear un nuevo trabajo (job) de estilo libre:
 
--   Haz clic en "Nueva tarea" o "Nuevo trabajo" en el panel de control de Jenkins.
--   Proporciona un nombre para el trabajo y selecciona "Crear un proyecto maven".
--   Configura la fuente de código fuente desde tu sistema de control de versiones (Git) proporcionando la url de proyecto.
+>-   Haz clic en "Nueva tarea" o "Nuevo trabajo" en el panel de control de Jenkins.
+>-   Proporciona un nombre para el trabajo y selecciona "Crear un proyecto maven".
+>-   Configura la fuente de código fuente desde tu sistema de control de versiones (Git) proporcionando la url de proyecto.
 
-5. Configurar la construcción:
+##5. Configurar la construcción:
 
--   En la sección de construcción, selecciona las acciones específicas para construir tu proyecto. Puede ser la ejecución de un script de compilación, *la construcción con Maven*, etc.
--   En build, ponemos el comando de maven "clean install"
+>-   En la sección de construcción, selecciona las acciones específicas para construir tu proyecto. Puede ser la ejecución de un script de compilación, *la construcción con Maven*, etc.
+>-   En build, ponemos el comando de maven "clean install"
 
-6. Configurar pruebas:
+##6. Configurar pruebas:
 
--   Después de la construcción, configura la ejecución de tus pruebas. Esto podría ser mediante la ejecución de scripts de prueba, la integración con herramientas de prueba como JUnit, TestNG, etc.
--   -* en post steps, ponemos invoke top-level maven targets y en goals el comando "test"*
+>-   Después de la construcción, configura la ejecución de tus pruebas. Esto podría ser mediante la ejecución de scripts de prueba, la integración con herramientas de prueba como JUnit, TestNG, etc.
+>-   -* en post steps, ponemos invoke top-level maven targets y en goals el comando "test"*
 
-7. Programación de la ejecución:
+##7. Programación de la ejecución:
 
--   Puedes programar la ejecución de tus trabajos en Jenkins en intervalos regulares o después de cada confirmación en tu sistema de control de versiones.
+>-   Puedes programar la ejecución de tus trabajos en Jenkins en intervalos regulares o después de cada confirmación en tu sistema de control de versiones.
 
-8. Ver resultados y notificaciones:
+##8. Ver resultados y notificaciones:
 
--   Configura Jenkins para notificar sobre los resultados de las pruebas. Puedes utilizar plugins de correo electrónico, integración con sistemas de mensajería como Slack, etc.
+>-   Configura Jenkins para notificar sobre los resultados de las pruebas. Puedes utilizar plugins de correo electrónico, integración con sistemas de mensajería como Slack, etc.
 
-9. Monitoreo y ajuste:
+##9. Monitoreo y ajuste:
 
--   Monitorea regularmente los resultados de las pruebas y ajusta la configuración según sea necesario.
+>-   Monitorea regularmente los resultados de las pruebas y ajusta la configuración según sea necesario.
 
 
 
