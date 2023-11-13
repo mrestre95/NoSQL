@@ -130,20 +130,24 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 
 -   Instala los plugins necesarios para la integración con tu sistema de control de versiones y herramientas de prueba. Por ejemplo, puedes necesitar el plugin Git, Maven, JUnit, etc.
 -   Ve a "Gestionar Jenkins" -> "Administrar complementos" y selecciona los plugins necesarios.
+-   *Installar pluguin de maven*
+-   setear las rutas para poder usar maven
 
 4. Crear un nuevo trabajo (job) de estilo libre:
 
 -   Haz clic en "Nueva tarea" o "Nuevo trabajo" en el panel de control de Jenkins.
--   Proporciona un nombre para el trabajo y selecciona "Crear un proyecto de estilo libre".
--   Configura la fuente de código fuente desde tu sistema de control de versiones (Git, SVN, etc.).
+-   Proporciona un nombre para el trabajo y selecciona "Crear un proyecto maven".
+-   Configura la fuente de código fuente desde tu sistema de control de versiones (Git) proporcionando la url de proyecto.
 
 5. Configurar la construcción:
 
--   En la sección de construcción, selecciona las acciones específicas para construir tu proyecto. Puede ser la ejecución de un script de compilación, la construcción con Maven, etc.
+-   En la sección de construcción, selecciona las acciones específicas para construir tu proyecto. Puede ser la ejecución de un script de compilación, *la construcción con Maven*, etc.
+-   En build, ponemos el comando de maven "clean install"
 
 6. Configurar pruebas:
 
 -   Después de la construcción, configura la ejecución de tus pruebas. Esto podría ser mediante la ejecución de scripts de prueba, la integración con herramientas de prueba como JUnit, TestNG, etc.
+-   -* en post steps, ponemos invoke top-level maven targets y en goals el comando "test"*
 
 7. Programación de la ejecución:
 
