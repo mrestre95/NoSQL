@@ -15,6 +15,19 @@
 **Automatizacion de Tests:** Jenkins
 >Jenkins es una herramienta de automatización de código abierto que se utiliza comúnmente para la construcción, prueba y implementación continua de software. Puede integrarse fácilmente con varios sistemas de gestión de versiones, entornos de desarrollo y herramientas de prueba. Aquí hay una guía básica sobre cómo puedes usar Jenkins para la automatización de pruebas:
 
+Ejemplo de prueba:
+1)corremos las pruebas especificadas en la construcion de jenkins->
+![image](https://github.com/mrestre95/NoSQL/assets/81320974/af2e9a80-e985-444d-8524-03b825f9f577)
+
+Vemos que corrio los comandos para construir el projecto y correr las pruebas:
+![image](https://github.com/mrestre95/NoSQL/assets/81320974/cda97210-edfe-4440-ad0e-ac9f9afb4765)
+
+![image](https://github.com/mrestre95/NoSQL/assets/81320974/f63e0dae-7d22-4d23-b8ab-8e05634d7220)
+
+
+
+
+
 # Configuración e instalación
 **IntellijIdea**
 ## Requerimientos del Sistema
