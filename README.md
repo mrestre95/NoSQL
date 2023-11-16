@@ -131,7 +131,13 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 >Get NoSQL - GetDomicilios/Paged: http://localhost:8082/api/domicilios?cedula=33445566&page=0&size=3
 
 >Get NoSQL - GetDomicilio/ByCreiterios: http://localhost:8082/api/domicilios/criterio?barrio=Prado&localidad=Punta Rieles&departamento=Canelones
+1-[![1.png](https://i.postimg.cc/jdYcqNDD/1.png)](https://postimg.cc/rzgxQDCT)
 
+2-[![2.png](https://i.postimg.cc/FRQbFXK2/2.png)](https://postimg.cc/JyPHKgZq)
+
+3-[![3.png](https://i.postimg.cc/cCPLZ0x3/3.png)](https://postimg.cc/y3XHyqS6)
+
+4-[![4.png](https://i.postimg.cc/Mpmf0fZr/4.png)](https://postimg.cc/xXqdnCzK)
 
 
 # Conectar IntellijIdea con Jenkins
