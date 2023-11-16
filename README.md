@@ -123,6 +123,13 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 
 >3 - Run the application.
 
+## Apis:
+>Post NoSQL - AltaPersona: http://localhost:8082/api/personas
+>Post NoSQL - AltaDomicilio: http://localhost:8082/api/domicilios
+>Get NoSQL - GetDomicilios/Paged: http://localhost:8082/api/domicilios?cedula=33445566&page=0&size=3
+>Get NoSQL - GetDomicilio/ByCreiterios: http://localhost:8082/api/domicilios/criterio?barrio=Prado&localidad=Punta Rieles&departamento=Canelones
+
+
 
 # Conectar IntellijIdea con Jenkins
 
