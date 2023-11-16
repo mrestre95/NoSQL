@@ -15,7 +15,7 @@
 **Automatizacion de Tests:** Jenkins
 >Jenkins es una herramienta de automatización de código abierto que se utiliza comúnmente para la construcción, prueba y implementación continua de software. Puede integrarse fácilmente con varios sistemas de gestión de versiones, entornos de desarrollo y herramientas de prueba. 
 
-**Postman
+**Postman:**
 >Postman permite gestionar colecciones de API, lo que facilita la documentación, el intercambio y la colaboración entre los miembros de un equipo de desarrollo. Ofrece funciones avanzadas como la creación de escenarios de prueba, gestión de permisos, generación de informes e incluso funciones de monitoreo en tiempo real de las API.Postman simplifica el proceso de desarrollo, prueba y mantenimiento de las API, proporcionando un entorno completo para trabajar con estas interfaces de manera eficiente y colaborativa.
 
 # Configuración e instalación
