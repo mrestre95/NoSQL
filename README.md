@@ -13,7 +13,7 @@
 >Docker simplifica el proceso de desarrollo y despliegue de aplicaciones al utilizar contenedores, proporcionando portabilidad, eficiencia de recursos y un entorno consistente en todos los niveles, desde el desarrollo hasta la producción.
 
 **Automatizacion de Tests:** Jenkins
->Jenkins es una herramienta de automatización de código abierto que se utiliza comúnmente para la construcción, prueba y implementación continua de software. Puede integrarse fácilmente con varios sistemas de gestión de versiones, entornos de desarrollo y herramientas de prueba. Aquí hay una guía básica sobre cómo puedes usar Jenkins para la automatización de pruebas:
+>Jenkins es una herramienta de automatización de código abierto que se utiliza comúnmente para la construcción, prueba y implementación continua de software. Puede integrarse fácilmente con varios sistemas de gestión de versiones, entornos de desarrollo y herramientas de prueba. 
 
 **Postman
 >Postman permite gestionar colecciones de API, lo que facilita la documentación, el intercambio y la colaboración entre los miembros de un equipo de desarrollo. Ofrece funciones avanzadas como la creación de escenarios de prueba, gestión de permisos, generación de informes e incluso funciones de monitoreo en tiempo real de las API.Postman simplifica el proceso de desarrollo, prueba y mantenimiento de las API, proporcionando un entorno completo para trabajar con estas interfaces de manera eficiente y colaborativa.
@@ -115,6 +115,15 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 
 >6 - Run the project
 
+# Instalacion de Postman
+
+>1 - Download the software from the follow linke https://dl.pstmn.io/download/latest/win64
+
+>2 - Run the installer and follow the wizard steps.
+
+>3 - Run the application.
+
+
 # Conectar IntellijIdea con Jenkins
 
 ##1. Instalación de Jenkins:
@@ -162,7 +171,7 @@ Para instalar y ejecutar Docker, el ambiente de trabajo debe de cumplir al menos
 
 >-   Monitorea regularmente los resultados de las pruebas y ajusta la configuración según sea necesario.
 
-# Ejemplo de prueba:
+## Aquí hay una guía básica sobre cómo puedes usar Jenkins para la automatización de pruebas:
 >1)corremos las pruebas especificadas en la construcion de jenkins->
 ![image](https://github.com/mrestre95/NoSQL/assets/81320974/af2e9a80-e985-444d-8524-03b825f9f577)
 
